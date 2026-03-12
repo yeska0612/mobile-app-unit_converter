@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#6366F1</color>
+    <color name="primary_blue_dark">#4338CA</color>
+    <color name="primary_blue_light">#818CF8</color>
+
+    <!-- Background Colors -->
+    <color name="background_dark">#0F0F23</color>
+    <color name="background_secondary">#1A1A2E</color>
+    <color name="card_background">#16213E</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9CA3AF</color>
+    <color name="text_hint">#6B7280</color>
+
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Accent Colors -->
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#0F0F23</color>
+
+    <!-- Ripple Effect -->
+    <color name="ripple_color">#26FFFFFF</color>
+</resources>

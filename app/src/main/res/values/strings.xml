@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Unit Converter</string>
+
+    <!-- Main Screen -->
+    <string name="search_unit">Search unit</string>
+
+    <!-- Categories -->
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="volume">Volume</string>
+    <string name="mass">Mass</string>
+    <string name="time">Time</string>
+    <string name="speed">Speed</string>
+    <string name="temperature">Temperature</string>
+    <string name="density">Density</string>
+    <string name="energy">Energy</string>
+    <string name="angle">Angle</string>
+
+    <!-- Converter Screen -->
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="input_data">Input data:</string>
+    <string name="output_data">Output data:</string>
+    <string name="input_hint">1000</string>
+    <string name="result">Result</string>
+    <string name="result_format">Result: %1$s %2$s = %3$s %4$s</string>
+
+    <!-- Length Units -->
+    <string name="meter">Meter</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="millimeter">Millimeter</string>
+    <string name="inch">Inch</string>
+    <string name="foot">Foot</string>
+    <string name="yard">Yard</string>
+    <string name="mile">Mile</string>
+
+    <!-- Mass Units -->
+    <string name="kilogram">Kilogram</string>
+    <string name="gram">Gram</string>
+    <string name="pound">Pound</string>
+    <string name="ounce">Ounce</string>
+    <string name="ton">Ton</string>
+
+    <!-- Temperature Units -->
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+    <!-- Volume Units -->
+    <string name="liter">Liter</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="gallon">Gallon</string>
+    <string name="quart">Quart</string>
+    <string name="pint">Pint</string>
+    <string name="cup">Cup</string>
+
+    <!-- Time Units -->
+    <string name="second">Second</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <!-- Speed Units -->
+    <string name="meter_per_second">m/s</string>
+    <string name="kilometer_per_hour">km/h</string>
+    <string name="mile_per_hour">mph</string>
+    <string name="knot">Knot</string>
+
+    <!-- Area Units -->
+    <string name="square_meter">Square Meter</string>
+    <string name="square_kilometer">Square Kilometer</string>
+    <string name="square_foot">Square Foot</string>
+    <string name="square_inch">Square Inch</string>
+    <string name="hectare">Hectare</string>
+    <string name="acre">Acre</string>
+
+    <!-- Energy Units -->
+    <string name="joule">Joule</string>
+    <string name="kilojoule">Kilojoule</string>
+    <string name="calorie">Calorie</string>
+    <string name="kilocalorie">Kilocalorie</string>
+    <string name="watt_hour">Watt Hour</string>
+    <string name="kilowatt_hour">Kilowatt Hour</string>
+
+    <!-- Angle Units -->
+    <string name="degree">Degree</string>
+    <string name="radian">Radian</string>
+    <string name="gradian">Gradian</string>
+
+    <!-- Density Units -->
+    <string name="kg_per_cubic_meter">kg/m³</string>
+    <string name="g_per_cubic_centimeter">g/cm³</string>
+    <string name="lb_per_cubic_foot">lb/ft³</string>
+
+    <!-- Messages -->
+    <string name="enter_value">Please enter a value</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="conversion_error">Conversion error</string>
+</resources>
