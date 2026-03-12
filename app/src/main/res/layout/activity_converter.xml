@@ -126,7 +126,7 @@
             android:layout_height="48dp"
             android:background="@android:color/transparent"
             android:hint="@string/input_hint"
-            android:inputType="numberDecimal"
+            android:inputType="numberSigned|numberDecimal"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:textColor="@color/text_primary"
@@ -176,7 +176,7 @@
 
     <!-- Middle icon -->
     <ImageView
-        android:id="@+id/ivSwap"
+        android:id="@+id/btnSwap"
         android:layout_width="36dp"
         android:layout_height="36dp"
         android:src="@drawable/ic_density"
@@ -196,7 +196,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginTop="14dp"
         android:text="@string/result"
-        app:layout_constraintTop_toBottomOf="@id/ivSwap"
+        app:layout_constraintTop_toBottomOf="@id/btnSwap"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

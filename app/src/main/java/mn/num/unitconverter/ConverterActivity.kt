@@ -1,5 +1,5 @@
 package mn.num.unitconverter
-
+import android.widget.ImageView
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -51,6 +51,7 @@ class ConverterActivity : AppCompatActivity() {
         val tvOutput = findViewById<TextView>(R.id.tvOutput)
         val tvResult = findViewById<TextView>(R.id.tvResult)
         val btnResult = findViewById<Button>(R.id.btnResult)
+        val btnSwap = findViewById<ImageView>(R.id.btnSwap)
 
         // Категори бүрт харгалзах нэгжүүдийг буцаана
         val units = getUnitsByCategory(category)
@@ -61,6 +62,14 @@ class ConverterActivity : AppCompatActivity() {
         }
         spFrom.adapter = adapter
         spTo.adapter = adapter
+
+        btnSwap.setOnClickListener {
+            val fromPosition = spFrom.selectedItemPosition
+            val toPosition = spTo.selectedItemPosition
+
+            spFrom.setSelection(toPosition)
+            spTo.setSelection(fromPosition)
+        }
 
         // Result товчлуур дээр дарахад хөрвүүлэлт хийнэ
         btnResult.setOnClickListener {
